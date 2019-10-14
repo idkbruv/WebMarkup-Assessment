@@ -1,9 +1,16 @@
-.Nav {
+.Nav{
+    background-color: #2699FB;
+}
+.Nav, ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2699FB;
+}
+
+img {
+    width: 5em;
+    height: 5em;
 }
   
 .navList {
