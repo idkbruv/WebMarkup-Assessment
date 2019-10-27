@@ -4,33 +4,48 @@ html {
 
 .logo {
     grid-area: logo;
+    align-self: center;
   }
 
 .Main {
-    grid-area: content;
+    grid-area: Main;
   }
 
 .Secondary {
-    grid-area: content;
+    grid-area: Secondary;
 }
 
 .sport {
-    grid-area: content;
+    grid-area: sport;
 }
 
 .sidebar {
     grid-area: sidebar;
+    padding: 1rem;
+}
+
+.contact {
+    grid-area: contact;
 }
 
 .footer{
     grid-area: footer;
 }
 
+
 .container {
     display: grid;
     margin: 0 2rem;
     grid-template-columns: 2fr 6fr 4fr;
     grid-gap: 2rem 1rem;
+    grid-template-rows: 3rem;
+    grid-template-areas: 
+    "logo menu menu"
+    "Main Main sidebar"
+    "Secondary Secondary Secondary"
+    "sport sport sport"
+    "contact contact contact"
+    "footer footer footer"
   }
 
 
@@ -42,7 +57,11 @@ html {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
     overflow: hidden;
+    grid-area: menu;
+    align-self: center;
+    justify-self: end;
 }
 
 img {
