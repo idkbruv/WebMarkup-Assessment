@@ -2,6 +2,38 @@ html {
     font-family: 'Be Vietnam', sans-serif;
 }
 
+.logo {
+    grid-area: logo;
+  }
+
+.Main {
+    grid-area: content;
+  }
+
+.Secondary {
+    grid-area: content;
+}
+
+.sport {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    margin: 0 2rem;
+    grid-template-columns: 2fr 6fr 4fr;
+    grid-gap: 2rem 1rem;
+  }
+
+
 .Nav{
     background-color: #2699FB;
 }
