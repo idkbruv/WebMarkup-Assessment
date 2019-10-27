@@ -6,6 +6,7 @@
         <meta name="keywords" content="Jiu Jitsu, Brazilian Jiu Jitsu">
         <meta name="author" content="Rocco Uva">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
         <title>
             Web Markup Assessment V205
         </title>
@@ -75,43 +76,43 @@
                 <ul>
                     <li>
                         <p>De flying petrels</p>
-                        <a href="https://www.flyingpetrels.nl/"><img src="Source/Petrels-logo-NIEUW-114px.jpg"></a>
+                        <a href="https://www.flyingpetrels.nl/" target="_blank"><img src="Source/Petrels-logo-NIEUW-114px.jpg"></a>
                     </li>
                     <li>
                         <p>Mixed Hockey Club Purmerend</p>
-                        <a href="https://www.mhcp.nl/"><img src="Source/clublogo-mhcp.jpg"></a>
+                        <a href="https://www.mhcp.nl/" target="blank"><img src="Source/clublogo-mhcp.jpg"></a>
                     </li>
                     <li>
                         <p>Rugbyclub Waterland</p>
-                        <a href="https://www.rugbyclubwaterland.nl"><img src="Source/RCW-Logo.jpg"></a>
+                        <a href="https://www.rugbyclubwaterland.nl" target="_blank"><img src="Source/RCW-Logo.jpg"></a>
                     </li>
                     <li>
                         <p>FC Purmersteijn</p>
-                        <a href="https://purmersteijn.eu/"><img src="Source/vpv-purmersteijn-logo.jpg"></a>                   
+                        <a href="https://purmersteijn.eu/" target="_blank"><img src="Source/vpv-purmersteijn-logo.jpg"></a>                   
                     </li>
                     <li>
                         <p>VV Z.O.B</p>
-                        <a href="https://www.vvzob.nl/"><img src="Source/ZOB-1.jpg"></a>
+                        <a href="https://www.vvzob.nl/" target="_blank"><img src="Source/ZOB-1.jpg"></a>
                     </li>
                     <li>
                         <p>FC Purmerend</p>
-                        <a href="https://www.fc-purmerend.nl/"><img src="Source/fc-puremrend.jpg"></a>
+                        <a href="https://www.fc-purmerend.nl/" target="_blank"><img src="Source/fc-puremrend.jpg"></a>
                     </li>
                     <li>
                         <p>BV Apollo Amsterdam</p>
-                        <a href="http://club.apollobasketball.nl"><img src="Source/Apollo_Logo.png"></a>
+                        <a href="http://club.apollobasketball.nl" target="_blank"><img src="Source/Apollo_Logo.png"></a>
                     </li>
                     <li>
                         <p>BC Triple Threat</p>
-                        <a href="https://vereniging.triplethreat.nl"><img src="Source/BC_TTT.jpg"></a>
+                        <a href="https://vereniging.triplethreat.nl" target="_blank"><img src="Source/BC_TTT.jpg"></a>
                     </li>
                     <li>
                         <p>Karatevereniging Funakoshi</p> 
-                        <a href="https://www.funakoshi.nl"><img src="Source/Funakoshi.png"></a>                      
+                        <a href="https://www.funakoshi.nl" target="_blank"><img src="Source/Funakoshi.png"></a>                      
                     </li>
                     <li>
                         <p>RKAV Volendam</p>
-                        <a href="https://www.rkav-volendam.nl"><img src="Source/RKAV_Volendam.png"></a>
+                        <a href="https://www.rkav-volendam.nl" target="_blank"><img src="Source/RKAV_Volendam.png"></a>
                     </li>
                 </ul>
             </article>
@@ -133,13 +134,22 @@
         </section>
 
         <section id="contact">
-            <header>
-                contact
-            </header>
             <article>
-                <p>
-                    Content
-                </p>
+                <fieldset>
+                    <legend>
+                        Contact:
+                    </legend>
+                <form action="http://witan.nl/inholland/testform.php" method="post" enctype="text/plain">
+                    <p>Name:</p>
+                    <input type="text" name="name"><br>
+                    <p>E-mail:</p>
+                    <input type="text" name="mail"><br>
+                    <p>Comment:</p>
+                    <input type="text" name="message" size="50"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+                </fieldset>
             <footer>
                 Footer
             </footer>

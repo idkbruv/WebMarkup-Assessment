@@ -1,6 +1,11 @@
+html {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
 .Nav{
     background-color: #2699FB;
 }
+
 .Nav, ul {
     list-style-type: none;
     margin: 0;
