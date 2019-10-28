@@ -6,7 +6,7 @@ html {
     width: 2em;
     height: 2em;
     float: right;
-    margin-right: 1em;
+    margin-right: 2em;
   }
   
   .logo {
@@ -45,7 +45,7 @@ html {
   }
   
   #Voet {
-    margin-left: 0.5em;
+    margin-left: 2em;
   }
   
   .container {
