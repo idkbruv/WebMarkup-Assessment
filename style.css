@@ -36,6 +36,7 @@ html {
 .container {
     display: grid;
     margin: 0 2rem;
+    margin-top: 2%;
     grid-template-columns: 2fr 6fr 4fr;
     grid-gap: 2rem 1rem;
     grid-template-rows: 3rem;
