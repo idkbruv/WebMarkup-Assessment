@@ -2,41 +2,57 @@ html {
     font-family: 'Be Vietnam', sans-serif;
 }
 
+.picLinks{
+    width: 2em;
+    height: 2em;
+    float: right;
+    margin-right: 1em;
+}
+
 .logo {
     grid-area: logo;
     align-self: center;
   }
 
-.Main {
+#Main {
     grid-area: Main;
+    margin-top: 2%;
   }
 
-.Secondary {
+#Secondary {
     grid-area: Secondary;
 }
 
-.sport {
+#sport {
     grid-area: sport;
 }
 
-.sidebar {
+#sidebar {
     grid-area: sidebar;
     padding: 1rem;
 }
 
-.contact {
+#contact {
     grid-area: contact;
+    margin-bottom: 0.5em;
 }
 
-.footer{
+#footer{
     grid-area: footer;
+    background-color: #444444;
+    color: #AAAAAA;
+    margin: -2em;
+}
+
+#Voet{
+    margin-left: 0.5em;
 }
 
 
 .container {
     display: grid;
     margin: 0 2rem;
-    margin-top: 2%;
+    margin-top: 4%;
     grid-template-columns: 2fr 6fr 4fr;
     grid-gap: 2rem 1rem;
     grid-template-rows: 3rem;
