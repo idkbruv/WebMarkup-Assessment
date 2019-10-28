@@ -1,76 +1,75 @@
 html {
-    font-family: 'Be Vietnam', sans-serif;
-}
-
-.picLinks{
+    font-family: "Be Vietnam", sans-serif;
+  }
+  
+  .picLinks {
     width: 2em;
     height: 2em;
     float: right;
     margin-right: 1em;
-}
-
-.logo {
+  }
+  
+  .logo {
     grid-area: logo;
     align-self: center;
   }
-
-#Main {
+  
+  #Main {
     grid-area: Main;
     margin-top: 2%;
   }
-
-#Secondary {
+  
+  #Secondary {
     grid-area: Secondary;
-}
-
-#sport {
+  }
+  
+  #sport {
     grid-area: sport;
-}
-
-#sidebar {
+  }
+  
+  #sidebar {
     grid-area: sidebar;
     padding: 1rem;
-}
-
-#contact {
+  }
+  
+  #contact {
     grid-area: contact;
     margin-bottom: 0.5em;
-}
-
-#footer{
+  }
+  
+  #footer {
     grid-area: footer;
     background-color: #444444;
-    color: #AAAAAA;
+    color: #aaaaaa;
     margin: -2em;
-}
-
-#Voet{
+  }
+  
+  #Voet {
     margin-left: 0.5em;
-}
-
-
-.container {
+  }
+  
+  .container {
     display: grid;
     margin: 0 2rem;
     margin-top: 4%;
     grid-template-columns: 2fr 6fr 4fr;
     grid-gap: 2rem 1rem;
     grid-template-rows: 3rem;
-    grid-template-areas: 
-    "logo menu menu"
-    "Main Main sidebar"
-    "Secondary Secondary Secondary"
-    "sport sport sport"
-    "contact contact contact"
-    "footer footer footer"
+    grid-template-areas:
+      "logo menu menu"
+      "Main Main sidebar"
+      "Secondary Secondary Secondary"
+      "sport sport sport"
+      "contact contact contact"
+      "footer footer footer";
   }
-
-
-.Nav{
-    background-color: #2699FB;
-}
-
-.Nav, ul {
+  
+  .Nav {
+    background-color: #2699fb;
+  }
+  
+  .Nav,
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -79,26 +78,25 @@ html {
     grid-area: menu;
     align-self: center;
     justify-self: end;
-}
-
-img {
+  }
+  
+  img {
     width: 5em;
     height: 5em;
-}
+  }
   
-.navList {
+  .navList {
     float: left;
-}
+  }
   
-.navList a {
+  .navList a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
   
-.navList a:hover {
+  .navList a:hover {
     background-color: #444444;
-}
-
+  }
