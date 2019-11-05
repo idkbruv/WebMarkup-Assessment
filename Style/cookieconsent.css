@@ -4,10 +4,10 @@
 	box-sizing: border-box;
 }
 
-input {
+#cookieButton {
 	display: none;
 }
-input:checked + #cookieBar {
+#cookieButton:checked + #cookieBar {
     bottom: -100%;
 }
 
@@ -17,8 +17,8 @@ label {
 	background: orange;
 }
 label:hover{   
-		cursor: pointer;
-		background: red;	
+	cursor: pointer;
+	background: red;	
 }
 
 #cookieBar {
@@ -27,6 +27,7 @@ label:hover{
 	width: 100%;
 	padding: 2rem;
 	text-align: center;
+	color: #444444;
 	background-color:#2699fb;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -34,4 +35,5 @@ label:hover{
 	transition: 1s ease;
 	-webkit-transition: 1s ease;
 	-moz-transition: 1s ease;
+	z-index: +1;
 }

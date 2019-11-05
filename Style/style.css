@@ -12,6 +12,18 @@ html {
   .sportFoto  {
     margin: 1em;
   }
+
+  #foto {
+    grid-area: wit;
+  }
+
+  .scnd_Foto  {
+    width: 49%;
+    height: 49%;
+    margin-top: 10em;
+    margin-bottom: -8em;
+    margin-left: 4em;
+  }
   
   .logo {
     grid-area: logo;
@@ -34,6 +46,7 @@ html {
   #sidebar {
     grid-area: sidebar;
     padding: 1em;
+    margin-left: 4em;
   }
   
   #contact {
@@ -62,7 +75,7 @@ html {
     grid-template-areas:
       "logo menu menu"
       "Main Main sidebar"
-      "Secondary Secondary Secondary"
+      "Secondary Secondary wit"
       "sport sport sport"
       "contact contact contact"
       "footer footer footer";
@@ -105,4 +118,9 @@ html {
   
   .navList a:hover {
     background-color: #444444;
+  }
+
+  #bericht {
+    size: 50;
+    height: 4em;
   }
