@@ -1,0 +1,37 @@
+.cookieBar + .cookieButton {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input {
+	display: none;
+}
+input:checked + #cookieBar {
+    bottom: -100%;
+}
+
+label {
+	display: inline-block;
+	padding: 0.25em;
+	background: orange;
+}
+label:hover{   
+		cursor: pointer;
+		background: red;	
+}
+
+#cookieBar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 2rem;
+	text-align: center;
+	background-color:#2699fb;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGFBMVEX////Zgz7nkEK5czVFKhOLSytLKBdXLxpY0nziAAAAlUlEQVRYhe2VOQ6AMBADCef/f8y6sGRMEL2TaVjheIoVx7JMJh804yjOYgSBF1xEUgUM1w56H/NVpAn0AELOXCZnlT2WGSBAiKKGXBYFmicK/AHyhfmMPFXAKxenZT+TJtiKJvCAvkyALxoydJIEe0GJflB6sIxOkkAlvlDAHy3zVzlEQImKHObdcojARc5vMUgwGY4bDV8WsfRmLxIAAAAASUVORK5CYII=");
+	transition: 1s ease;
+	-webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+}
