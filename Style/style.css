@@ -8,6 +8,10 @@ html {
     float: right;
     margin-right: 2em;
   }
+
+  .sportFoto  {
+    margin: 1em;
+  }
   
   .logo {
     grid-area: logo;
