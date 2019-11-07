@@ -13,19 +13,19 @@
               "sidebar sidebar sidebar"
               "Secondary Secondary wit"
               "sport sport sport"
-              "contact contact contact"
+              "opvuller1 contact opvuller2"
               "footer footer footer";
     }
   }
 
   @media all and (max-width: 480px) {
     .container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr;
       grid-template-rows: auto;
       grid-gap: 2em 0;      
       grid-template-areas:
-                "logo"
                 "menu"
+                "logo"
                 "Main"
                 "sidebar"
                 "Secondary"
@@ -38,4 +38,31 @@
         float: center;
         position: center;
     }
+    li {
+        list-style-type:none;  
+      }
+      
+    .Nav {
+        display:block;
+        background-color: #2699fb;
+        color:#ffffff;
+        text-align:center;
+        padding:1em;
+        font-size:200%;
+          }
+          
+        .Nav .navList .navList {
+              padding:10px;
+              border-bottom:solid 1em white;
+              border-top:solid 1em white;
+          }
+          
+        .Nav .navList {
+            display:none;
+            font-size:60%;
+            padding-top:2em;
+          }
+        .Nav .navList:hover {
+            display:block;
+          }
   }
