@@ -9,10 +9,16 @@ html {
     margin-right: 2em;
   }
 
-  .opvuller {
-    grid-area: opvuller;
+  .opvuller1 {
+    grid-area: opvuller1;
     color: transparent;
   }
+
+  .opvuller2 {
+    grid-area: opvuller2;
+    color: transparent;
+  }
+
 
   .sportFoto  {
     margin: 1em;
@@ -33,15 +39,18 @@ html {
   .logo {
     grid-area: logo;
     align-self: center;
+    margin-top: 5em;
   }
   
   #Main {
     grid-area: Main;
     margin-top: 2%;
+    margin-right: 1em;
   }
   
   #Secondary {
     grid-area: Secondary;
+    margin-right: 1em;
   }
   
   #sport {
@@ -50,8 +59,7 @@ html {
   
   #sidebar {
     grid-area: sidebar;
-    padding: 1em;
-    margin-right: 6em;
+    margin-top: 1em;
   }
   
   #contact {
@@ -76,7 +84,7 @@ html {
     display: grid;
     margin: 0 2em;
     margin-top: 4%;
-    grid-template-columns: 2fr 6fr 4fr;
+    grid-template-columns: 4fr 6fr 4fr;
     grid-gap: 2em 1em;
     grid-template-rows: 3em;
     grid-template-areas:
@@ -84,7 +92,7 @@ html {
       "sidebar Main Main"
       "wit Secondary Secondary"
       "sport sport sport"
-      "opvuller contact contact"
+      "opvuller1 contact opvuller2"
       "footer footer footer";
   }
 
