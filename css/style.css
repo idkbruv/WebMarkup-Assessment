@@ -65,6 +65,7 @@ html {
     margin-left: 2em;
   }
   
+  /*Laat zien hoe de grid eruit moet zien.*/
   .container {
     display: grid;
     margin: 0 2em;
@@ -81,6 +82,7 @@ html {
       "footer footer footer";
   }
   
+  /*Alles met "Nav" is voor de navigatiebalk.*/
   .Nav {
     background-color: #2699fb;
     position: fixed;
