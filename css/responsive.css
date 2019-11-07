@@ -34,7 +34,8 @@
                 "footer";
     }
     .Nav {
-        justify-self: start;
+        justify-self: end;
         float: center;
+        position: center;
     }
   }
