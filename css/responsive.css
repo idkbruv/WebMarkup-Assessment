@@ -35,5 +35,6 @@
     }
     .Nav {
         justify-self: start;
+        float: center;
     }
   }
