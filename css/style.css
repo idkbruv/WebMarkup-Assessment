@@ -1,6 +1,5 @@
 html {
     font-family: 'Berlin Sans FB', "Be Vietnam", sans-serif, Arial;
-    background-color: #f5f5f5;
   }
   
   .picLinks {
@@ -8,6 +7,11 @@ html {
     height: 2em;
     float: right;
     margin-right: 2em;
+  }
+
+  .opvuller {
+    grid-area: opvuller;
+    color: transparent;
   }
 
   .sportFoto  {
@@ -47,7 +51,7 @@ html {
   #sidebar {
     grid-area: sidebar;
     padding: 1em;
-    margin-left: 4em;
+    margin-right: 6em;
   }
   
   #contact {
@@ -77,10 +81,10 @@ html {
     grid-template-rows: 3em;
     grid-template-areas:
       "logo menu menu"
-      "Main Main sidebar"
-      "Secondary Secondary wit"
+      "sidebar Main Main"
+      "wit Secondary Secondary"
       "sport sport sport"
-      "contact contact contact"
+      "contact contact opvuller"
       "footer footer footer";
   }
 
