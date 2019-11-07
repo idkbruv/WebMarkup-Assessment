@@ -1,3 +1,7 @@
 User-agent: *
 Disallow: /forbidden
-Allow: spider-xyz
+Disallow: /admin/
+Disallow: /cpanel/
+Disallow: /includes/
+allow: spider-xyz
+Sitemap: http://www.taekwon.eu/643505/20191107114813-sitemap.xml.xhtml
