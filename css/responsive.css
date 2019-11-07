@@ -1,3 +1,4 @@
+/* Deze .css file past de site aan op basis van de grootte van je beeldscherm */
 @media all and (max-width: 1280px) {
     .container{
         margin: 0 1em;

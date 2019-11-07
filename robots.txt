@@ -5,3 +5,4 @@ Disallow: /cpanel/
 Disallow: /includes/
 allow: spider-xyz
 Sitemap: http://www.taekwon.eu/643505/sitemap.xml
+Sitemap: http://www.taekwon.eu/643505/browserconfig.xml
