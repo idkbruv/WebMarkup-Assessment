@@ -1,7 +1,10 @@
 /* Deze .css file past de site aan op basis van de grootte van je beeldscherm */
 @media all {
     .container{
-        margin: 0 1em;
+        margin: 0 1em;        
+    }
+    #mobileBTN{
+        color: transparent;
     }
 }
 
@@ -15,6 +18,9 @@
               "sport sport sport"
               "opvuller1 contact opvuller2"
               "footer footer footer";
+    }
+    #mobileBTN{
+      color:transparent;
     }
   }
 
@@ -37,32 +43,146 @@
         justify-self: end;
         float: center;
         position: center;
+        position: relative;
     }
-    li {
-        list-style-type:none;  
-      }
-      
+   /* Helaas werkt dit niet, maar ik wou mijn poging wel laten zien.
+    #trigger-on,
+    #trigger-off {
+      height: 0;
+      display: inline-block;
+      overflow: visible;
+      position: relative;
+      margin-right: 20px;
+    }
+
+    #trigger-on:before,
+    #trigger-off:before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 5px;
+      content: attr(data-label);
+    }
+
+    #trigger-off:before {
+      color: #2699fb;
+    }
+
+    #trigger-on:before {
+      color: #444444;
+    }
+
+    #trigger-on:checked:before {
+      background:#444444;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    #trigger-off:checked:before {
+      background: #2699fb;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    .trigger {
+      display: inline;
+    }
+
+    label.off-inside,
+    label.off {
+      background: rgba(255, 0, 0, 0.4);
+    }
+
+    label.on-inside {
+      background: rgba(0, 255, 0, 0.4);
+    }
+
     .Nav {
-        display:block;
-        background-color: #2699fb;
-        color:#ffffff;
-        text-align:center;
-        padding:1em;
-        font-size:200%;
-          }
-          
-        .Nav .navList .navList {
-              padding:10px;
-              border-bottom:solid 1em white;
-              border-top:solid 1em white;
-          }
-          
-        .Nav .navList {
-            display:none;
-            font-size:60%;
-            padding-top:2em;
-          }
-        .Nav .navList:hover {
-            display:block;
-          }
+      padding-left: 0;
+    }
+
+    .navList {
+      list-style-type: none;
+    }
+
+    Nav {
+      display: block;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 200%;
+      position: relative;
+      z-index: 2;
+    }
+    Nav > .Nav > .navList {
+      position: relative; 
+    }
+    Nav .Nav > .navList > .Nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin: 0 -10px;
+      padding: 10px;
+      background: black;
+    }
+     Nav .Nav .navList .Nav .navList {
+      padding: 10px;
+      border-bottom: solid 1px white;
+      border-top: solid 1px white;
+    }
+
+    Nav .Nav .navList .Nav {
+      display: none;
+      font-size: 60%;
+      padding-top: 30px;
+    }
+
+    .trigger {
+      display: none;
+    }
+
+    label.off-inside,
+    label.off {
+      display: none;
+      background: transparent;
+    }
+
+    label.on-inside {
+      background: transparent;
+      display: block;
+    }
+
+    .trigger[value="on"]:checked ~ label.off {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      display: block;
+    }
+
+    .trigger[value="on"]:checked ~ Nav label.off-inside {
+      display: block;
+    }
+
+    .trigger[value="on"]:checked ~ Nav label.on-inside {
+      display: none;
+    }
+
+    .trigger[value="on"]:checked ~ Nav .Nav .Nav {
+      display: block;
+    }
+
+    .trigger[value="off"]:checked ~ Nav .Nav .Nav {
+      display: none;
+    }
+
+    body {
+      overflow-y: scroll;
+      padding: 10px;
+    }
+        */
   }
