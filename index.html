@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="Jiu Jitsu, Brazilian Jiu Jitsu, Landing page, Nederland">
   <meta name="author" content="Rocco Uva">
+  <meta name="description"content="Deze website is gemaaakt door Rocco Uva&copy;, in opdracht van ...">
   <meta name="google-site-verification" content="32uHqdlNIK7b3GQZF4ByIdIl58-5ceTopaEDLG06t7g" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -36,15 +37,7 @@
     <h2>&shy;</h2>
   </section>
   <nav>
-    <!--<input type="checkbox" id="trigger" />-->
     <ul class="Nav">
-        <!--<input data-label="on" type="radio" name="trigger" id="trigger-on" class="trigger" value="on" style="border-color: green; display: block;"/>
-        <input data-label="off" type="radio" name="trigger" id="trigger-off" class="trigger" value="off"  style="border-color: red" checked="checked"/>
-        <label class="off" for="trigger-off"></label>
-        <li>
-        <label for="trigger-on" class="on-inside">Menu</label>
-        <label for="trigger-off" class="off-inside">Menu</label>
-        </li>-->
       <li class="navList">
         <a href=#Main>Nederland</a>
       </li>
@@ -206,15 +199,15 @@
         <legend>
           Contact&colon;
         </legend>
-        <form class="contactForm" action="http://witan.nl/inholland/testform.php" target="_blank" method="GET" enctype="text/plain">
+        <form class="contactForm" action="http://witan.nl/inholland/testform.php" target="_blank" method="POST" enctype="text/plain">
           <p>Naam&colon;</p>
           <input type="text" name="name">
           <p>E-mail&colon;</p>
           <input type="email" name="mail">
           <p>Bericht&colon;</p>
           <input id="bericht" type="text" name="message">
-          <input type="submit" value="Send">
-          <input type="reset" value="Reset">
+          <button type="submit" value="Send">Verstuur</button>
+          <button type="reset" value="Reset">Reset</button>
         </form>
       </fieldset>
       <footer>
@@ -234,7 +227,7 @@
   </footer>
 
   <section class="fullscreen-bg">
-    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+    <video loop muted autoplay poster="img/videoframe.png" class="fullscreen-bg__video">
         <source src="videos/Amsterdam.webm" type="video/webm">
         <source src="videos/Amsterdam.mp4" type="video/mp4">
         <source src="videos/Amsterdam.ogg" type="video/ogg">
