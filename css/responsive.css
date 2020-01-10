@@ -41,9 +41,7 @@
     }
     .Nav {
         justify-self: end;
-        float: center;
-        position: center;
-        position: relative;
+        position: fixed;
     }
    /* Helaas werkt dit niet, maar ik wou mijn poging wel laten zien.
     #trigger-on,
